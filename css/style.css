@@ -1,11 +1,9 @@
-body {
-    padding: 70px;
-}
+
 
 
 /* main navbar */
 
-.nav {
+.navbar {
     min-height: 70px;
 }
 
@@ -32,6 +30,7 @@ body {
     color: #BBB;
     font-size: 30px;
     line-height: 30px;
+ 
 }
 
 .navbar-inverse .navbar-brand span {
