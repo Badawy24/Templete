@@ -1,15 +1,71 @@
-.test{
-    background-color: blue;
-    color: #FFF;
-    margin-bottom: 10px;
-    padding: 10px;
+/* main navbar */
+
+.navbar {
+    min-height: 70px;
 }
 
-.nest {
+
+/* Active Linke*/
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: red;
+}
+
+
+/* Normal Link & Brand */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: red;
+}
+
+
+/* Dropdown-menu */
+
+.dropdown-menu {
+    background-color: #333;
+    min-width: 200px;
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu>li>a {
+    color: #BBB;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.4s ease;
+    -moz-transition: padding 0.4s ease;
+    -o-transition: padding 0.4s ease;
+    transition: padding 0.4s ease;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
     background-color: red;
     color: #FFF;
-    margin-bottom: 10px;
-    padding: 20px;
+    padding-left: 30px;
+}
 
+.navbar-nav>li>.dropdown-menu {
+    border-top-color: red;
+}
 
+.dropdown-menu .divider {
+    background-color: #871818;
 }
